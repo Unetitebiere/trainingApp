@@ -1,0 +1,12 @@
+<ion-view view-title="Exercises" ng-controller="ExercisesCtrl">
+  <ion-content>
+    <a class="button button-block button-positive" href="#/tab/exercises/add" >
+      Add exercise
+    </a>
+    <ul class="list" ng-repeat="exercise in exercises">
+      <li class="item">
+        {{exercise.name}}
+      </li>
+    </ul>
+  </ion-content>
+</ion-view>
